@@ -1,0 +1,12 @@
+import tkinter
+root=tkinter.Tk()
+root.geometry('400x200+100+200')
+l1=tkinter.Label(root,text="this is my code",bg="red",fg="white")
+l2=tkinter.Label(root,text="this is my second code",bg="green",fg="white")
+l3=tkinter.Label(root,text="its my third code ",bg="blue",fg="white")
+l4=tkinter.Label(root,text="its my fourth code ",bg="orange",fg="white")
+l1.grid(row=0,column=0)
+l2.grid(row=0,column=1)
+l3.grid(row=0,column=3)
+l4.grid(row=2,column=4)
+root.mainloop()
